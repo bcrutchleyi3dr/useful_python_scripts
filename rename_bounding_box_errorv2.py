@@ -1,7 +1,8 @@
+# This code is used to ensure that the maximum value for yolo labelling is 1.
+
 import re
 import glob
-# Python code to 
-# demonstrate readlines() 
+
   
 
   
@@ -11,7 +12,7 @@ for file in glob.glob('*.txt'):
 	
 	with open(file) as f:
 	    content = f.readlines()
-	# you may also want to remove whitespace characters like `\n` at the end of each line
+	
 	
 	
 	content = [x.strip() for x in content] 
